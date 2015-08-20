@@ -5,6 +5,5 @@
 # Pull base image
 FROM dockerfile/python
 # Install maestro
-RUN pip install --upgrade git+git://github.com/signalfuse/maestro-ng@maestro-0.2.3
-# Define default command
+RUN pip install --upgrade git+git://github.com/signalfuse/maestro-ng@maestro-0.2.6.2
 ENTRYPOINT ["/usr/local/bin/maestro"]
